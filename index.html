@@ -1,0 +1,59 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Student Registration System">
+    <title>Student Registration System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Student Registration System</h1>
+        <p>Register and manage student details easily. Add, Edit, and Delete student records.</p>
+    </header>
+
+    <main>
+        <!-- Form to add student details -->
+        <section id="registration-form">
+            <h2>Register a New Student</h2>
+            <form id="student-form">
+                <label for="name">Student Name:</label>
+                <input type="text" id="name" placeholder="Enter Student Name" required>
+
+                <label for="id">Student ID:</label>
+                <input type="number" id="id" placeholder="Enter Student ID" required>
+
+                <label for="email">Email ID:</label>
+                <input type="email" id="email" placeholder="Enter Email" required>
+
+                <label for="contact">Contact No.:</label>
+                <input type="tel" id="contact" placeholder="Enter Contact Number" required>
+
+                <button type="submit">Register</button>
+            </form>
+        </section>
+
+        <!-- Display registered students -->
+        <section id="student-list">
+            <h2>Registered Students</h2>
+            <table id="students-table">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>ID</th>
+                        <th>Email</th>
+                        <th>Contact No.</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Records will be dynamically added here -->
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>

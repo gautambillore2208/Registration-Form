@@ -1,0 +1,81 @@
+﻿body {
+    font-family: Arial, sans-serif;
+    background : linear-gradient(230deg,#415a77,#778da9);
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background : linear-gradient(230deg,#415a77,#778da9);
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+#registration-form, #student-list {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #adb5bd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+form input, form button {
+    width: 100%;
+    padding: 9px;
+    margin: 5px 0;
+    border: 1px solid #6c757d;
+    border-radius: 4px;
+    background-color: #dee2e6;
+}
+
+button {
+    background: linear-gradient(120deg,#48cae4,#00b4d8);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #d6ccc2;
+    color: white;
+}
+
+td button {
+    margin: 0 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+td button.edit {
+    background-color: #4CAF50;
+    color: white;
+}
+
+td button.delete {
+    background-color: #f44336;
+    color: white;
+}
